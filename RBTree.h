@@ -288,7 +288,7 @@ class RBTree {
             return result;
         }
 
-        bool minimum(T& x, U& y) const {
+        bool minimum(T &x, U &y) const {
             if (size==0)
                 return false;
 
@@ -303,7 +303,7 @@ class RBTree {
             return true;
         }
 
-        bool maximum(T& x, U& y) const {
+        bool maximum(T &x, U &y) const {
             if (size==0)
                 return false;
 
@@ -320,7 +320,7 @@ class RBTree {
 
         unsigned int getSize() const { return size; }
 
-        bool search(T x, U& y) const {
+        bool search(T x, U &y) const {
             Node *node=search(x);
 
             if (node==TNIL)
