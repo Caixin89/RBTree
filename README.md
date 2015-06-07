@@ -50,3 +50,6 @@ Input:
   2. y: parameter to store the value
 Output:
   1. true if key is found, else false
+
+void print(ostream& stream)
+Prints the whole red-black tree using the provided ostream object
